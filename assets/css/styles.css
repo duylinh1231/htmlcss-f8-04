@@ -502,7 +502,7 @@ h6 {
 
 .tab__list {
     position: relative;
-    display: flex;
+    display: inline-flex;
     column-gap: 56px;
 }
 
@@ -538,6 +538,7 @@ h6 {
 .tab__icon {
     width: 18px;
     height: 18px;
+    object-fit: cover;
 }
 
 .tab__title {
