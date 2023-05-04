@@ -580,3 +580,73 @@ h6 {
 .tab__content-more::after {
     opacity: 1;
 }
+
+/* Service */
+
+.service {
+    margin-top: 190px;
+    background: #fff6ed;
+    padding: 68px 0 100px;
+}
+
+.service__top {
+    text-align: center;
+}
+
+.service__desc {
+    margin-bottom: 15px;
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #5e6085;
+}
+
+.service__body {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.service-card {
+    width: 294px;
+    background: #fff;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.service-card + .service-card {
+    margin-top: 24px;
+}
+
+.service-card__heading {
+    font-family: Sora, sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #000958;
+}
+
+.service-card__desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #656689;
+}
+
+.service-card__more {
+    display: inline-flex;
+    margin-top: 24px;
+    font-family: Sora, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #34396a;
+}
+
+.service-card__more::after {
+    content: url(../img/arrow-up-right.svg);
+    margin: 1px 0 0 6px;
+}
